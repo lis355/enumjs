@@ -1,8 +1,11 @@
 {
 	"name": "@lis355/enumjs",
-	"version": "1.0.0",
+	"version": "1.0.1",
+	"repository": {
+		"url": "git+https://github.com/lis355/enumjs.git"
+	},
 	"type": "module",
-	"repository": "https://github.com/lis355/enumjs",
+	"main": "index.js",
 	"scripts": {
 		"test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
 		"publish": "npm publish --access public"
